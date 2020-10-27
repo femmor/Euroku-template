@@ -39,6 +39,53 @@
     border: 1px solid #fff;
 }
 
+/* Buttons and Backgrounds */
+
+.bg-primary, .btn-primary {
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.bg-secondary, .btn-secondary {
+    color: white;
+    background-color: var(--secondary-color);
+} 
+
+.bg-dark, .btn-dark {
+    color: white;
+    background-color: var(--dark-color);
+}
+
+.bg-light, .btn-light {
+    color: #333;
+    background-color: var(--light-color);
+}
+
+
+/* Text sizes */
+.lead {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.sm {
+    font-size: 1rem;
+}
+
+.md {
+    font-size: 2rem;
+}
+
+.lg {
+    font-size: 3rem;
+}
+
+.xl {
+    font-size: 4rem;
+}
+
+/* Flex */
+
 .flex {
     display: flex;
     justify-content: space-between; /* Partains to the main axis */
