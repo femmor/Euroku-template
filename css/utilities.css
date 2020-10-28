@@ -67,6 +67,24 @@
     color: white;
 }
 
+/* Text Colors */
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-secondary {
+    color: var(--secondary-color);
+} 
+
+.text-dark {
+    color: var(--dark-color);
+}
+
+.text-light {
+    color: var(--light-color);
+}
+
 /* Text sizes */
 .lead {
     font-size: 18px;
@@ -87,6 +105,28 @@
 
 .xl {
     font-size: 4rem;
+}
+
+/* Alert */
+.alert {
+    background-color: var(--light-color);
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 15px; 
+}
+
+.alert-success {
+    color: white;
+    background-color: var(--success-color);
+}
+
+.alert-error {
+    color: white;
+    background-color: var(--error-color);
+}
+
+.alert i {
+    margin-right: 10px;
 }
 
 /* Flex */
